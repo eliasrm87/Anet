@@ -27,4 +27,4 @@ You are free to use all this files and documentation under your own risk.
 - https://github.com/Lauszus/Sanguino
 - https://github.com/MarlinFirmware/Marlin
 - https://3dprint.wiki/reprap/firmware/anet/repetier/install
-- https://www.repetier.com
+- https://github.com/repetier/Repetier-Firmware
