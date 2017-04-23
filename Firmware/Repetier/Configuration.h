@@ -164,12 +164,12 @@
 #define HEATED_BED_SENSOR_PIN TEMP_1_PIN
 #define HEATED_BED_HEATER_PIN 12
 #define HEATED_BED_SET_INTERVAL 5000
-#define HEATED_BED_HEAT_MANAGER 0
+#define HEATED_BED_HEAT_MANAGER 1
 #define HEATED_BED_PID_INTEGRAL_DRIVE_MAX 255
 #define HEATED_BED_PID_INTEGRAL_DRIVE_MIN 80
-#define HEATED_BED_PID_PGAIN_OR_DEAD_TIME   196
-#define HEATED_BED_PID_IGAIN   33
-#define HEATED_BED_PID_DGAIN 290
+#define HEATED_BED_PID_PGAIN_OR_DEAD_TIME   109.32
+#define HEATED_BED_PID_IGAIN   25.28
+#define HEATED_BED_PID_DGAIN 118.2
 #define HEATED_BED_PID_MAX 255
 #define HEATED_BED_DECOUPLE_TEST_PERIOD 300000
 #define MIN_EXTRUDER_TEMP 150
@@ -792,13 +792,13 @@ Values must be in range 1..255
     "bedSensorType": 1,
     "bedSensorPin": "TEMP_1_PIN",
     "bedHeaterPin": 12,
-    "bedHeatManager": 0,
+    "bedHeatManager": 1,
     "bedUpdateInterval": 5000,
     "bedPidDriveMin": 80,
     "bedPidDriveMax": 255,
-    "bedPidP": 196,
-    "bedPidI": 33,
-    "bedPidD": 290,
+    "bedPidP": 109.32,
+    "bedPidI": 25.28,
+    "bedPidD": 118.2,
     "bedPidMax": 255,
     "bedDecoupleTestPeriod": 300,
     "caseLightPin": -1,
