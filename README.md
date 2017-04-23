@@ -20,6 +20,7 @@ You are free to use all this files and documentation under your own risk.
 - Click on "Download" tab
 - Click "Download complete firmware incl. these settings" button
 - Open downloaded "repetier.ino" file with arduino IDE
+- Select board "Anet V1.0"
 - Click upload button
 
 ## References
