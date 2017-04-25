@@ -11,11 +11,10 @@ You are free to use all this files and documentation under your own risk.
 ### Arduino IDE setup
 - Copy the Arduino folder content into your Arduino sketches folder
 - Open arduino IDE
-- Add the following url for the boards manager on "preferences": https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json
+- Add the following url at "Additional Boards Manager URLs" on "preferences": https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json
 - Install last version of "Arduino AVR Boards" and "Sanguino" using the boards manager
 
-
-## Repetier firmware configuration
+## Repetier firmware
 
 ### Build and upload repetier firmware
 - Go to https://www.repetier.com/firmware/v092/
@@ -25,6 +24,12 @@ You are free to use all this files and documentation under your own risk.
 - Open downloaded "repetier.ino" file with arduino IDE
 - Select board "Anet V1.0"
 - Click upload button
+
+## Malvin firmware
+*Work in progress*
+
+## Skynet firmware
+*Work in progress*
 
 ## References
 - https://github.com/Lauszus/Sanguino
