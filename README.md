@@ -10,7 +10,10 @@ You are free to use all this files and documentation under your own risk.
 
 ### Arduino IDE setup
 - Copy the Arduino folder content into your Arduino sketches folder
-- Open arduino IDE and install last version of "Arduino AVR Boards" using the boards manager
+- Open arduino IDE
+- Add the following url for the boards manager on "preferences": https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json
+- Install last version of "Arduino AVR Boards" and "Sanguino" using the boards manager
+
 
 ## Repetier firmware configuration
 
