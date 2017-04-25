@@ -28,7 +28,7 @@ You are free to use all this files and documentation under your own risk.
 ## Marlin firmware
 *Work in progress*
 
-## Skynet firmware
+## SkyNet3d firmware
 *Work in progress*
 
 ## References
