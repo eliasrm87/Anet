@@ -25,7 +25,7 @@ You are free to use all this files and documentation under your own risk.
 - Select board "Anet V1.0"
 - Click upload button
 
-## Malvin firmware
+## Marlin firmware
 *Work in progress*
 
 ## Skynet firmware
