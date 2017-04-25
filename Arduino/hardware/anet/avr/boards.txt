@@ -26,6 +26,6 @@ anet.build.mcu=atmega1284p
 anet.build.f_cpu=16000000L
 anet.build.board=AVR_SANGUINO
 anet.build.core=arduino:arduino
-anet.build.variant=sanguino
+anet.build.variant=Sanguino:sanguino
 
 anet.bootloader.file=atmega/ATmegaBOOT_168_atmega1284p.hex
