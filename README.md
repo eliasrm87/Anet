@@ -14,7 +14,7 @@ You are free to use all this files and documentation under your own risk.
 - Add the following url at "Additional Boards Manager URLs" on "preferences": https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json
 - Install last version of "Arduino AVR Boards" and "Sanguino" using the boards manager
 
-### Clearing EEPROM
+## Clearing EEPROM
 Clearing EEPROM is very important if you are changing firmware family, for example from marlin based to repetier based.
 If you are not sure, I recommend you to clear the EEPROM before flashing the new firmware.
 For clearing the EEPROM follow the following steps:
