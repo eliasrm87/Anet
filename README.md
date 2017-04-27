@@ -1,4 +1,4 @@
-# AnetA8
+# Anet
 
 Find here all sources I'm using for improving my Anet A8 3D printer.
 
