@@ -57,10 +57,13 @@ Then follow this steps to burn the bootloader onto the main board:
 - Open the ArduinoISP firmware (in Examples) to your Arduino board.
 - Select the items in the Tools > Board and Serial Port menus that correspond to the board you are using as the programmer (not the board being programmed).
 - Upload the ArduinoISP sketch.
-- Wire your Arduino board to the target as shown in the diagram.
+- Dissconnect everithing from your mainboard, even the power supply.
+- Wire your Arduino board to the board as shown in the [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.gif).
 - Select the item "Anet V1.0" in the Tools > Board menu.
 - Select the Arduino as ISP in the Tools>Programmer menu.
 - Use the Burn Bootloader command.
+
+WARNING: Check your wirings many times before pluging the arduino to the USB, a wrong wiring may destroy your Arduino and even your mainboard.
 
 After that you should be able to connect your USB cable as usual and flash a new firmware.
 
