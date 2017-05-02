@@ -42,6 +42,30 @@ For clearing the EEPROM follow the following steps:
 ## Marlin firmware
 *Work in progress*
 
+## Burning bootloader
+
+You may brick your board if you select a wrong board, force the system to flash a incorrect firmware or unplug the USB while it is flashing. After this, you will not able to flash your board anymore and probably getting errors like this:
+
+    avrdude: stk500_cmd(): programmer is out of sync
+
+If this happens, first discard that you don't have a defective USB cable by replacing it. If you are still unable to flash your board, most likely you are against a boot loader corruption, so your board is probably partially bricked.
+
+You can try to flash again the bootloader using an Arduino as programer connected to your board following this [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.gif).
+
+Then follow this steps to burn the bootloader onto the main board:
+
+- Open the ArduinoISP firmware (in Examples) to your Arduino board.
+- Select the items in the Tools > Board and Serial Port menus that correspond to the board you are using as the programmer (not the board being programmed).
+- Upload the ArduinoISP sketch.
+- Wire your Arduino board to the target as shown in the diagram.
+- Select the item "Anet V1.0" in the Tools > Board menu.
+- Select the Arduino as ISP in the Tools>Programmer menu.
+- Use the Burn Bootloader command.
+
+After that you should be able to connect your USB cable as usual and flash a new firmware.
+
+This steps has been taken from https://www.arduino.cc/en/Tutorial/ArduinoISP, consult it for extra information.
+
 ## References
 - https://github.com/Lauszus/Sanguino
 - https://github.com/MarlinFirmware/Marlin
