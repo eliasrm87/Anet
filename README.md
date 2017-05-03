@@ -44,28 +44,30 @@ For clearing the EEPROM follow the following steps:
 
 ## Burning bootloader
 
-You may brick your board if you select a wrong board, force the system to flash a incorrect firmware or unplug the USB while it is flashing. After this, you will not able to flash your board anymore and probably getting errors like this:
+You may brick your main board if you do things like selecting a wrong board on the arduino IDE, forcing the system to flash a incorrect firmware or unplugging the USB while it is flashing. After that, you may not be able to flash your main board anymore and probably you will start getting errors like this:  
 
     avrdude: stk500_cmd(): programmer is out of sync
 
-If this happens, first discard that you don't have a defective USB cable by replacing it. If you are still unable to flash your board, most likely you are against a boot loader corruption, so your board is probably partially bricked.
+If this happens, first discard that you don't have a defective USB cable by replacing it. If you are still unable to flash your main board, most likely you are against a boot loader corruption, so your main board is probably "bricked". 
 
-You can try to flash again the bootloader using an Arduino as programer connected to your board following this [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.gif).
+You can try to burn again the bootloader using an Arduino as ISP programer connected to your board following this [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.gif) and following this steps:
 
-Then follow this steps to burn the bootloader onto the main board:
+- Plug the USB cable to the arduino board
+- Open arduino IDE
+- Open the ArduinoISP firmware (in Examples)
+- Select the items in the Tools > Board and Tools > Serial Port menus that correspond to the arduino board you are using as the programmer (not the Anet main board being programmed)
+- Upload the ArduinoISP sketch
+- Dissconnect the USB cable from the arduino board
+- Dissconnect everithing from your printer mainboard, even the power supply
+- Wire your Arduino board to the board as shown in the [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.gif)
+- **Check your wirings at least three times, as a wrong wiring may destroy your Arduino and even your main board**
+- Plug the USB cable to the arduino board
+- Select the item "Anet V1.0" in the Tools > Board menu
+- Select the Arduino as ISP in the Tools > Programmer menu
+- Use the Burn Bootloader command
+- If the burning finish without errors, disconnect all wires between the arduino and the main board and connect again everything to the main board (fans, motors, LCD, etc.)
 
-- Open the ArduinoISP firmware (in Examples) to your Arduino board.
-- Select the items in the Tools > Board and Serial Port menus that correspond to the board you are using as the programmer (not the board being programmed).
-- Upload the ArduinoISP sketch.
-- Dissconnect everithing from your mainboard, even the power supply.
-- Wire your Arduino board to the board as shown in the [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.gif).
-- Select the item "Anet V1.0" in the Tools > Board menu.
-- Select the Arduino as ISP in the Tools>Programmer menu.
-- Use the Burn Bootloader command.
-
-WARNING: Check your wirings many times before pluging the arduino to the USB, a wrong wiring may destroy your Arduino and even your mainboard.
-
-After that you should be able to connect your USB cable as usual and flash a new firmware.
+Now you should be able to connect your USB cable to the main board, as usual, and flash any new firmware to it. I suggest you to start testing with the "Blink" example and check that the LED into the main board start to blink.
 
 This steps has been taken from https://www.arduino.cc/en/Tutorial/ArduinoISP, consult it for extra information.
 
