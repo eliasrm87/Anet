@@ -50,7 +50,7 @@ You may brick your main board if you do things like selecting a wrong board on t
 
 If this happens, first discard that you don't have a defective USB cable by replacing it. If you are still unable to flash your main board, most likely you are against a boot loader corruption, so your main board is probably "bricked". 
 
-You can try to burn again the bootloader using an Arduino as ISP programer connected to your board following this [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.gif) and following this steps:
+You can try to burn again the bootloader using an Arduino as ISP programer connected to your board following this [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.jpg) and following this steps:
 
 - Plug the USB cable to the arduino board
 - Open arduino IDE
@@ -59,7 +59,7 @@ You can try to burn again the bootloader using an Arduino as ISP programer conne
 - Upload the ArduinoISP sketch
 - Dissconnect the USB cable from the arduino board
 - Dissconnect everithing from your printer mainboard, even the power supply
-- Wire your Arduino board to the board as shown in the [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.gif)
+- Wire your Arduino board to the board as shown in the [diagram](https://github.com/erm2587/Anet/blob/master/Pictures/ArduinoISP.jpg)
 - **Check your wirings at least three times, as a wrong wiring may destroy your Arduino and even your main board**
 - Plug the USB cable to the arduino board
 - Select the item "Anet V1.0" in the Tools > Board menu
