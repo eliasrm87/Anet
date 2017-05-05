@@ -71,6 +71,8 @@ Now you should be able to connect your USB cable to the main board, as usual, an
 
 This steps has been taken from https://www.arduino.cc/en/Tutorial/ArduinoISP, consult it for extra information.
 
+**WARNING: Don't use a standard 10 pins ISP programer.** Looks like the anet main board is using the 6 middle pins of the 10 pins connector for exposing the ISP as it where a 6 pins connector, while the standard configuration for 10 pins ISP connector is completely different.
+
 ## References
 - https://github.com/Lauszus/Sanguino
 - https://github.com/MarlinFirmware/Marlin
