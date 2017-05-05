@@ -72,6 +72,7 @@ Now you should be able to connect your USB cable to the main board, as usual, an
 This steps has been taken from https://www.arduino.cc/en/Tutorial/ArduinoISP, consult it for extra information.
 
 ## References
+- http://3dtoday.ru/upload/main/233/Anet.jpg
 - https://github.com/Lauszus/Sanguino
 - https://github.com/MarlinFirmware/Marlin
 - https://3dprint.wiki/reprap/firmware/anet/repetier/install
