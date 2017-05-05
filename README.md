@@ -4,7 +4,7 @@ Find here all sources I'm using for improving my Anet A8 3D printer and some oth
 
 Most of the files are not mine, you can check file headers for author references, I'll also try to refer all sources at the end of this file.
 
-You are free to use all this files and documentation under your own risk.
+**You are free to use/follow all this files and documentation at your own risk.**
 
 # Anet A6 (Not working yet)
 
