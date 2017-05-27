@@ -10,6 +10,6 @@ Most of the files are not mine, you can check file headers for author references
 
 I only have an Anet A8, so everything I share here for that printer has been tested by my self on my own printer, I can not say the same for the A6, so be very careful when using what I have here on this printer.
 
-# For more information check check the following posts
+# Instructions
 
-* https://linuxgnublog.org/en/dealing-with-an-anet-a8-3d-printer-firmware/
+* English: https://linuxgnublog.org/en/dealing-with-an-anet-a8-3d-printer-firmware/
