@@ -13,3 +13,4 @@ I only have an Anet A8, so everything I share here for that printer has been tes
 # Instructions
 
 * English: https://linuxgnublog.org/en/dealing-with-an-anet-a8-3d-printer-firmware/
+* Spanish: https://linuxgnublog.org/es/lidiando-con-mi-impresora-3d-anet-a8-firmware/
